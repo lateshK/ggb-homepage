@@ -6,6 +6,7 @@
 		.block{
 			&-description{
 				.body-text {
+					font-size: 14px;
 					@media (min-width: 992px){
 						font-size: 1.2rem;
 					}
@@ -30,7 +31,7 @@
 		background-image: url(https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/06/healthy-food-bowl-1.jpg);
 		height: 100%;
 	}
-	@media (max-width: 991px){
+	@media (max-width: 767px){
 		display: none;
 	}
 }

@@ -9941,6 +9941,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   padding: 0px;
 }
 
+/* line 8, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.main-content .contentLeft .block-description .body-text {
+  font-size: 14px;
+}
+
 @media (min-width: 992px) {
   /* line 8, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .main-content .contentLeft .block-description .body-text {
@@ -9955,7 +9960,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 20, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 21, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight {
   position: fixed;
   left: 550px;
@@ -9965,7 +9970,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   display: block;
 }
 
-/* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 28, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .main-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -9973,8 +9978,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   height: 100%;
 }
 
-@media (max-width: 991px) {
-  /* line 20, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+@media (max-width: 767px) {
+  /* line 21, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .contentRight {
     display: none;
   }
