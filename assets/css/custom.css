@@ -10240,7 +10240,7 @@ body > div, body > section {
 
 /* line 18, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-list-item {
-  padding: 0 10px;
+  padding: 0 0px;
   display: flex;
   scroll-snap-align: start;
   scroll-snap-stop: always;
