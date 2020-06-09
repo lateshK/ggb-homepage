@@ -10023,9 +10023,30 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   color: #4aa751;
 }
 
-/* line 56, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+@media (max-width: 767px) {
+  /* line 50, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .main-content .contentLeft .footer-section .contact-details a {
+    font-size: 16px;
+  }
+}
+
+/* line 59, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details h4 {
   font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 59, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .main-content .contentLeft .footer-section .contact-details h4 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 49, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .main-content .contentLeft .footer-section .contact-details {
+    margin: 25px 0;
+  }
 }
 
 @media (max-width: 575px) {
@@ -10035,7 +10056,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 66, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 75, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight {
   position: fixed;
   left: 550px;
@@ -10045,7 +10066,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   display: block;
 }
 
-/* line 73, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 82, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .main-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -10054,7 +10075,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 @media (max-width: 575px) {
-  /* line 66, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 75, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .contentRight {
     display: none;
   }

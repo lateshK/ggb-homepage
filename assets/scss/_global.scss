@@ -52,9 +52,18 @@
 					&:hover{
 						color: #4aa751;
 					}
+					@media (max-width: 767px){
+						font-size: 16px;
+					}
 				}
 				h4{
 					font-size: 20px;
+					@media (max-width: 767px){
+						font-size: 16px;
+					}
+				}
+				@media (min-width: 992px){
+					margin: 25px 0;
 				}
 			}
 		}
