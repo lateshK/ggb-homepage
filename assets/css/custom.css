@@ -9967,11 +9967,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .main-image {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/06/healthy-food-bowl-1.jpg);
   height: 100%;
-  width: 100%;
 }
 
 @media (max-width: 991px) {
