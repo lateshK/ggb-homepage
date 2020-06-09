@@ -3,17 +3,62 @@
 	.contentLeft{
 		max-width: 550px;
 		padding: 0px;
-		.block{
-			&-description{
-				.body-text {
-					font-size: 14px;
-					@media (min-width: 992px){
-						font-size: 1.2rem;
+		.body-text {
+			font-size: 16px;
+			padding: 0 15px;
+			@media (min-width: 992px){
+				font-size: 1.2rem;
+			}
+			@media (max-width: 991px) and (min-width: 768px){
+				font-size: 1.1rem;
+			}
+		}
+		.product-title{
+			font-size: 1.9rem;
+    		line-height: 1.4;
+    		@media (max-width: 767px){
+    			font-size: 22px;
+    		}
+		}
+		.product-content{
+			h4{
+				color: #212529;
+			    font-weight: normal;
+        		@media (max-width: 767px){
+    				font-size: 14px !important;
+    			}
+			}
+		}
+		.product-price{
+			font-weight: 600;
+			font-size: 2.125rem;
+		}
+		.aj-home-title{
+		    font-size: 2.5rem;
+			margin: auto;
+			font-style: italic;
+			text-transform: lowercase;
+			font-family: Libre Baskerville,Baskerville,georgia,serif !important;
+		}
+		.btn-add-to-cart{
+			font-size: 25px;
+			font-weight: 600;
+		}
+		.footer-section{
+			padding: 5rem 0 3rem;
+			.contact-details{
+				a{
+					font-size: 20px;
+					&:hover{
+						color: #4aa751;
 					}
+				}
+				h4{
+					font-size: 20px;
 				}
 			}
 		}
-		@media (max-width: 991px){
+		@media (max-width: 575px){
 			max-width: 100%;
 		}
 	}
@@ -31,7 +76,7 @@
 		background-image: url(https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/06/healthy-food-bowl-1.jpg);
 		height: 100%;
 	}
-	@media (max-width: 767px){
+	@media (max-width: 575px){
 		display: none;
 	}
 }
