@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* Slider */
+/* line 3, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 17, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 24, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-list:focus {
+  outline: none;
+}
+
+/* line 28, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 33, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 42, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 50, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+
+/* line 56, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-track:after {
+  clear: both;
+}
+
+/* line 60, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 64, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+
+/* line 68, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+
+/* line 71, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-slide img {
+  display: block;
+}
+
+/* line 74, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+/* line 80, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+/* line 84, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+/* line 88, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+/* line 92, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/* line 98, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* Dots */
+/* line 103, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+/* line 108, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: inline-flex;
+  width: 100%;
+  padding: 0;
+  margin: -15px 0px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 121, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* line 134, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 15px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+/* line 152, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+
+/* line 157, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+/* line 162, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 35px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 184, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/slick.scss */
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: black;
+}
+
+/*# sourceMappingURL=slick.css.map */

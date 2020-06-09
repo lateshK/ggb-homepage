@@ -1,0 +1,59 @@
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'], input[type='tel']{
+    &:focus{
+        outline: 0;
+    }
+}
+
+#partitioned {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border: 0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 220px;
+  }
+
+.input-bottom{
+    border: 0;
+    border-bottom: 1px solid #C4C8C4;
+    outline: 0;
+}
+
+.radio .radio-input:checked ~ .radio-text{
+    color: #000;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+}
+
+.plceholder-text{
+    outline: 0 !important;
+    &:focus{
+        outline: 0;
+    }
+}
+
+.plceholder-text::placeholder {
+    color: #C4C8C4 !important;
+    font-weight: 300 !important;
+    opacity: 1;
+}
+
+.plceholder-text:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C4C8C4 !important;
+    font-weight: 300 !important;
+}
+
+.plceholder-text::-ms-input-placeholder { /* Microsoft Edge */
+    color: #C4C8C4 !important;
+    font-weight: 300 !important;
+}

@@ -9930,4 +9930,168 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
+/* line 1, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.main-content {
+  position: relative;
+}
+
+/* line 3, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.main-content .contentLeft {
+  max-width: 550px;
+  padding: 15px;
+}
+
+@media (min-width: 992px) {
+  /* line 8, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .main-content .contentLeft .block-description .body-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 3, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .main-content .contentLeft {
+    max-width: 100%;
+  }
+}
+
+/* line 20, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.contentRight {
+  position: fixed;
+  left: 550px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+}
+
+/* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.contentRight .main-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/06/healthy-food-bowl-1.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  /* line 20, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .contentRight {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Medium.eot");
+  src: url("../fonts/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Bold.eot");
+  src: url("../fonts/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Light.eot");
+  src: url("../fonts/FuturaPT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Light.woff2") format("woff2"), url("../fonts/FuturaPT-Light.woff") format("woff"), url("../fonts/FuturaPT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("../fonts/FuturaPT-Demi.eot");
+  src: url("../fonts/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("../fonts/FuturaPT-Book.eot");
+  src: url("../fonts/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 56, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* line 59, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.body-text {
+  font-size: 1.75rem;
+  /*letter-spacing: .2px;*/
+  line-height: 1.428;
+}
+
+@media (min-width: 992px) and (max-width: 1450px) {
+  /* line 63, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+  .body-text.small-laptop-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 63, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+  .body-text.small-laptop-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  /* line 59, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+  .body-text {
+    font-size: 1.375rem;
+  }
+  /* line 73, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+  .body-text .font-weight-bold {
+    font-size: 1.6rem;
+  }
+}
+
+/* line 80, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.font-size-13 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* line 84, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.font-size-15 {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* line 88, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.font-size-16 {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/* line 92, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.font-size-18 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* line 96, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.font-size-24 {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+/* line 100, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_type.scss */
+.font-size-25 {
+  font-size: 25px;
+  line-height: 31px;
+}
+
 /*# sourceMappingURL=custom.css.map */
