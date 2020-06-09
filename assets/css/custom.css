@@ -10711,7 +10711,7 @@ body > div, body > section {
   animation: side-arrow 2.5s infinite;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 50, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_button.scss */
   .btn-add-to-cart {
     padding: 10px 15px !important;
