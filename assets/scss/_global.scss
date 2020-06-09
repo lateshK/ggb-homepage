@@ -6,16 +6,25 @@
 		.body-text {
 			font-size: 16px;
 			padding: 0 15px;
+			@media (min-width: 992px){
+				font-size: 1.3rem;
+			}
+			@media (max-width: 991px) and (min-width: 768px){
+				font-size: 1.1rem;
+			}
 		}
 		.product-title{
-			font-size: 22px;
+			font-size: 1.9rem;
     		line-height: 1.4;
+    		@media (max-width: 767px){
+    			font-size: 22px;
+    		}
 		}
 		.product-content{
 			h4{
 				color: #212529;
 			    font-weight: normal;
-        		@media (max-width: 1920px){
+        		@media (max-width: 767px){
     				font-size: 14px !important;
     			}
 			}
@@ -32,21 +41,30 @@
 			font-family: Libre Baskerville,Baskerville,georgia,serif !important;
 		}
 		.btn-add-to-cart{
-			font-size: 20px;
+			font-size: 25px;
 			font-weight: 600;
 		    cursor: pointer;
+			@media (max-width: 767px){
+				font-size: 20px;
+			}
 		}
 		.footer-section{
 			padding: 5rem 0 3rem;
 			.contact-details{
 				a{
-					font-size: 16px;
+					font-size: 20px;
 					&:hover{
 						color: #4aa751;
 					}
+					@media (max-width: 767px){
+						font-size: 16px;
+					}
 				}
 				h4{
-					font-size: 16px;
+					font-size: 20px;
+					@media (max-width: 767px){
+						font-size: 16px;
+					}
 				}
 				@media (min-width: 992px){
 					margin: 25px 0;
