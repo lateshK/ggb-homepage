@@ -13249,39 +13249,23 @@ input[type='number']:focus, input[type='tel']:focus {
   height: 100vh;
 }
 
-/* line 335, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
-#footer section {
-  width: 40%;
-}
-
-@media (min-width: 992px) and (max-width: 1399.98px) {
-  /* line 338, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
-  #footer section .container.p5 {
-    padding-left: 15px;
-  }
-}
-
 @media (max-width: 991px) {
-  /* line 347, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 336, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .vc_row.wpb_row.vc_row-fluid.main-row {
     display: block;
   }
-  /* line 350, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 339, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .left-content.wpb_column {
     width: 100%;
     padding-right: 0;
   }
-  /* line 354, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 343, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .main-post-img {
     display: none;
   }
-  /* line 357, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 346, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .right-content.wpb_column {
     display: none !important;
-  }
-  /* line 360, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
-  #footer section {
-    width: 100%;
   }
 }
 

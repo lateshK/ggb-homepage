@@ -331,18 +331,7 @@
     width: 100%;
     height: 100vh;
 }
- 
-#footer section{
-    width: 40%;
-    .container {
-        &.p5{
-            @media (min-width: 992px) and (max-width: 1399.98px) {
-                padding-left: 15px;
-            }
-        }
-    }
-}
-    
+
 @media (max-width: 991px){
     .vc_row.wpb_row.vc_row-fluid.main-row{
         display: block;
@@ -356,8 +345,5 @@
     }
     .right-content.wpb_column{
         display: none !important;
-    }
-    #footer section{
-        width: 100%;
     }
 }
