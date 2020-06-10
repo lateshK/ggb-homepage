@@ -14,19 +14,14 @@
 			}
 		}
 		.product-title{
-			font-size: 1.9rem;
+			font-size: 34px;
     		line-height: 1.4;
-    		@media (max-width: 767px){
-    			font-size: 22px;
-    		}
 		}
 		.product-content{
 			h4{
 				color: #212529;
 			    font-weight: normal;
-        		@media (max-width: 767px){
-    				font-size: 14px !important;
-    			}
+			    font-size: 17px;
 			}
 		}
 		.product-price{
@@ -63,22 +58,16 @@
 			}
 		}
 		.footer-section{
-			padding: 5rem 0 3rem;
+			padding: 2rem 0 3rem;
 			.contact-details{
 				a{
-					font-size: 20px;
+					font-size: 20.4px;
 					&:hover{
 						color: #4aa751;
 					}
-					@media (max-width: 767px){
-						font-size: 16px;
-					}
 				}
 				h4{
-					font-size: 20px;
-					@media (max-width: 767px){
-						font-size: 16px;
-					}
+					font-size: 20.4px;
 				}
 				@media (min-width: 992px){
 					margin: 25px 0;
