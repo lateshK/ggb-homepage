@@ -119,7 +119,16 @@
 
 .success.toast{
     background: #ecf6ec;
-    color: #4aa751;
+    @media (max-width: 991px) {
+        color: #000000;
+        span{
+            display: flex;
+            align-items: center;
+            svg{
+                margin-right: 10px;
+            }
+        }
+    }
     @media (min-width: 992px) {
         font-size: 18px;
         background: #fff;
@@ -216,6 +225,10 @@
     width: 410px;
     padding-bottom: 52px;
     background: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    .delivery-address-container{
+        margin-top: 15px;
+    }
   }
   .cart-wrapper.active{
     transform: translate(0,0);
@@ -330,6 +343,15 @@
     object-fit: cover;
     width: 100%;
     height: 100vh;
+}
+
+.p-add{
+    span{
+        margin-right: 18px;
+    }
+    i{
+        top: 0;
+    }
 }
 
 @media (max-width: 991px){
