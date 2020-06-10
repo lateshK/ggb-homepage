@@ -122,7 +122,7 @@
                                 "date": "Tuesday 2nd"
                                 }'
                             >
-                            <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a></div>
+                            <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add"><span class="zindex-1">Add to cart</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a></div>
                             </div>
                           </div>
                         </div>
@@ -164,7 +164,7 @@
                               "availability": "Tuesday",
                               "date": "Tuesday 2nd"
                               }'>
-                              <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a></div>
+                              <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add"><span class="zindex-1">Add to cart</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a></div>
                             </div>
                           </div>
                         </div>
@@ -209,7 +209,7 @@
                                 "availability": "Friday",
                                 "date": "Friday 5th"
                                 }'>
-                                <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a></div>
+                                <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add"><span class="zindex-1">Add to cart</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a></div>
                               </div>
                             </div>
                           </div>
@@ -254,7 +254,7 @@
                               "availability": "Friday",
                               "date": "Friday 5th"
                               }'>
-                              <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a></div>
+                              <div><a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add"><span class="zindex-1">Add to cart</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a></div>
                             </div>
                           </div>
                         </div>
@@ -348,6 +348,56 @@
 	<!-- variant selection popup -->
 	<div id="react-variant-selection-modal"></div>
 
+	<!-- <div id="react-variant-selection-modal">
+		<div class="custom-modal show-modal" id="variation-selection-popup">
+		   <div class="custom-modal-content p-15">
+			  <button type="button" class="btn-reset close-modal"><i class="fas fa-times text-silver"></i></button>
+			  <div class="product-variant text-left text-black">
+				 <h3 class="h1 ft6 pr-4">Choose Your Bowl</h3>
+				 <div class="list-meta mt-4 mb-4">
+					<div class="list-author">Orange Barley Bowl (Tofu)</div>
+					<div class="list-date">Veg</div>
+				 </div>
+				 <div class="variant-list mb-4">
+					<div class="list-item pt-3 pb-3 border-bottom-lightgrey"><label class="custom-radio-btn mb-0 font-size-16"><span class="mr-3 d-inline-block mw-70 text-capitalize text-primary">bowl</span> <span class="price-span text-right"><span class="currency-symbol">₹</span>1</span><input type="radio" name="variant-1CG6P1slxnr9TSNnPzvZ" value="1CG6P1slxnr9TSNnPzvZ-bowl"><span class="checkmark"></span></label></div>
+					<div class="list-item pt-3 pb-3 border-bottom-lightgrey"><label class="custom-radio-btn mb-0 font-size-16"><span class="mr-3 d-inline-block mw-70 text-capitalize ">superbowl</span> <span class="price-span text-right"><span class="currency-symbol">₹</span>260</span><input type="radio" name="variant-1CG6P1slxnr9TSNnPzvZ" value="1CG6P1slxnr9TSNnPzvZ-superbowl"><span class="checkmark"></span></label></div>
+				 </div>
+				 <div class="d-flex mb-4">
+					<div class="select-wrapper w-50">
+						<div class="select-wrapper-title">
+							<span class="d-block">Select day</span>
+						</div>
+						<div class="select-inner-wrap">
+							<select name="days" id="days">
+								<option value="monday">Monday</option>
+								<option value="tuesday">Tuesday</option>
+								<option value="wednesday">Wednesday</option>
+								<option value="thursday">Thursday</option>
+								<option value="friday">Friday</option>
+								<option value="saturday">Saturday</option>
+							</select>
+						</div>
+					</div>
+					<div class="select-wrapper w-50">
+						<div class="select-wrapper-title">
+							<span class="d-block">Select slot</span>
+						</div>
+						<div class="select-inner-wrap">
+							<select name="slot" id="slot">
+								<option value="choose">Choose a slot</option>
+								<option value="lunch">Lunch</option>
+								<option value="dinner">Dinner</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			  </div>
+			  
+			  <div class="custom-modal-footer d-flex justify-content-between"><button type="button" class="btn-reset btn-continue btn-arrow-icon font-size-15 text-capitalize p-15 bg-primary text-white text-left w-100 position-relative d-flex align-items-center justify-content-between"><span class="zindex-1">Select &amp; Continue</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></button></div>
+		   </div>
+		</div>
+	</div> -->
+
 	<div class="msg-container">
 
 	 <div id="success-failure-toast-container">
@@ -388,6 +438,7 @@
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
 	<script src="https://order.greengrainbowl.com/site/firebase-functions.js?_1" type="text/javascript"></script>
 	<script src="https://order.greengrainbowl.com/site/react-components.1591727542406.js" type="text/javascript"></script>
+	<script src="https://order.greengrainbowl.com/site/react-components.1591727542406.js" type="text/javascript"></script>
 
 
 	<!-- Slick -->
@@ -400,6 +451,6 @@
 		var react_css_file_hashes = {"main":"d0188286"};
 		var app_url = "https://order.greengrainbowl.com/site";
 		var site_url = "https://greengrainbowl.com";
-	</script>	
+	</script>
 </body>
 </html>

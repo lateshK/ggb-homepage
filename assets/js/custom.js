@@ -486,7 +486,7 @@ function displaySuccess(msg){
 function displayToast(msg, type){
     let length = $('#success-failure-toast-container div').length, element
     if(type == 'success'){
-        element = '<div class="animated fadeInUp success toast d-flex justify-content-center sb-shadow mt-lg-5 position-relative"><span class="p-15 pt-lg-2 pb-lg-2 w-100 position-relative text-lg-center text-capitalize">' + msg +'</span><button class="btn-reset close-img" onclick="removeToast(this)"><i class="sprite sprite-close_btn"></i></button></div>';
+        element = '<div class="animated fadeInUp success toast d-flex justify-content-center sb-shadow mt-lg-5 position-relative"><span class="p-15 pt-lg-2 pb-lg-2 w-100 position-relative text-lg-center text-capitalize"> <svg class="bi bi-check-circle-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="#4aa74f" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>' + msg +'</span><button class="btn-reset close-img" onclick="removeToast(this)"><i class="sprite sprite-close_btn"></i></button></div>';
     }
     else{
         element = '<div class="animated fadeInUp failure toast d-flex justify-content-center position-relative mt-lg-5"><span class="alert-danger p-15 pt-lg-2 pb-lg-2 w-100 position-relative text-capitalize">'+ msg +'</span><button class="btn-reset close-img" onclick="removeToast(this)"><i class="sprite sprite-close_btn"></i></button></div>'
