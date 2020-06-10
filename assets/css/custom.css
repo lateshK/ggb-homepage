@@ -15434,6 +15434,16 @@ div.ff-stream {
 .main-content .contentLeft {
   max-width: 550px;
   padding: 0px;
+  /*		.product-image{
+		    opacity: 0;
+		    visibility: hidden;
+		    transition: opacity 1s ease;
+		    -webkit-transition: opacity 1s ease;
+		    &.slick-initialized {
+		        visibility: visible;
+		        opacity: 1;  
+		    }
+		}*/
 }
 
 /* line 6, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
@@ -15486,20 +15496,6 @@ div.ff-stream {
 .main-content .contentLeft .product-price {
   font-weight: 600;
   font-size: 2.125rem;
-}
-
-/* line 36, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
-.main-content .contentLeft .product-image {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1s ease;
-  -webkit-transition: opacity 1s ease;
-}
-
-/* line 41, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
-.main-content .contentLeft .product-image.slick-initialized {
-  visibility: visible;
-  opacity: 1;
 }
 
 /* line 46, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
@@ -15601,6 +15597,73 @@ div.ff-stream {
   .contentRight {
     display: none;
   }
+}
+
+/* line 2, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section input[type="radio"] {
+  display: none;
+}
+
+/* line 6, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section .tab-panel {
+  display: none;
+}
+
+/* line 10, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section input:first-child:checked ~ .tab-panels .product-list #product-1CG6P1slxnr9TSNnPzvZ.tab-panel,
+.product-section input:nth-child(3):checked ~ .tab-panels .product-list #product-8FVGmVx4JjQZRUsxtYrL.tab-panel,
+.product-section input:nth-child(5):checked ~ .tab-panels .coming-soon.tab-panel .product-section input:nth-child(7):checked ~ .tab-panels .coming-soon.tab-panel .product-section input:nth-child(9):checked ~ .tab-panels .coming-soon.tab-panel .product-section input:nth-child(11):checked ~ .tab-panels .coming-soon.tab-panel {
+  display: block;
+}
+
+/* line 21, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 26px;
+  color: #ced4da;
+}
+
+/* line 34, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section input[type="radio"]:checked + label {
+  color: #000;
+  font-weight: 600;
+}
+
+/* line 39, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section input[type="radio"]:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10px;
+  width: 50%;
+  height: 2px;
+  background: #4aa751;
+}
+
+/* line 52, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section label:hover::after,
+.product-section input:focus + label::after,
+.product-section input:checked + label::after {
+  background: #06c;
+}
+
+/* line 58, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panel {
+  padding: 30px 0;
+}
+
+/* line 62, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.product-section {
+  max-width: 65em;
 }
 
 /*# sourceMappingURL=custom.css.map */
