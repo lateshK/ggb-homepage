@@ -15572,25 +15572,15 @@ div.ff-stream {
   }
 }
 
-/* line 2, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section input[type="radio"] {
-  display: none;
+/* line 1, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* line 6, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section .tab-panel {
-  display: none;
-}
-
-/* line 10, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section input:first-child:checked ~ .tab-panels .product-list #product-1CG6P1slxnr9TSNnPzvZ.tab-panel,
-.product-section input:nth-child(3):checked ~ .tab-panels .product-list #product-8FVGmVx4JjQZRUsxtYrL.tab-panel,
-.product-section input:nth-child(5):checked ~ .tab-panels .coming-soon.tab-panel .product-section input:nth-child(7):checked ~ .tab-panels .coming-soon.tab-panel .product-section input:nth-child(9):checked ~ .tab-panels .coming-soon.tab-panel .product-section input:nth-child(11):checked ~ .tab-panels .coming-soon.tab-panel {
-  display: block;
-}
-
-/* line 21, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section label {
+.tab {
   position: relative;
   display: inline-block;
   padding: 15px 15px 25px;
@@ -15603,14 +15593,53 @@ div.ff-stream {
   color: #ced4da;
 }
 
-/* line 34, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section input[type="radio"]:checked + label {
+/* line 18, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.panels {
+  width: 100%;
+}
+
+/* line 21, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.panel {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  animation: fadein .8s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 36, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.radio {
+  display: none;
+}
+
+/* line 39, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+#one:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,
+#two:checked ~ .panels #product-8FVGmVx4JjQZRUsxtYrL,
+#three:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ {
+  display: block;
+  height: auto !important;
+}
+
+/* line 45, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab {
   color: #000;
   font-weight: 600;
 }
 
-/* line 39, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section input[type="radio"]:checked + label::after {
+/* line 50, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+#one:checked ~ .tabs #one-tab:after,
+#two:checked ~ .tabs #two-tab:after,
+#three:checked ~ .tabs #three-tab:after {
   content: "";
   position: absolute;
   left: 0;
@@ -15620,23 +15649,6 @@ div.ff-stream {
   width: 50%;
   height: 2px;
   background: #4aa751;
-}
-
-/* line 52, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section label:hover::after,
-.product-section input:focus + label::after,
-.product-section input:checked + label::after {
-  background: #06c;
-}
-
-/* line 58, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.tab-panel {
-  padding: 30px 0;
-}
-
-/* line 62, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.product-section {
-  max-width: 65em;
 }
 
 /*# sourceMappingURL=custom.css.map */

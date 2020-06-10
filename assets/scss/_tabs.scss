@@ -1,64 +1,61 @@
-
-.product-section input[type="radio"] {
-  display: none;
+.tab-panels{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.product-section .tab-panel {
-  display: none;
+.tab{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 26px;
+    color: #ced4da;;
 }
-
-.product-section input:first-child:checked ~ .tab-panels .product-list  #product-1CG6P1slxnr9TSNnPzvZ.tab-panel,
-.product-section input:nth-child(3):checked ~ .tab-panels .product-list  #product-8FVGmVx4JjQZRUsxtYrL.tab-panel,
-.product-section input:nth-child(5):checked ~ .tab-panels  .coming-soon.tab-panel
-.product-section input:nth-child(7):checked ~ .tab-panels .coming-soon.tab-panel
-.product-section input:nth-child(9):checked ~ .tab-panels  .coming-soon.tab-panel
-.product-section input:nth-child(11):checked ~ .tab-panels  .coming-soon.tab-panel
- {
+.panels{
+  width:100%;
+}
+.panel{
   display: block;
+  height: 0;
+  overflow: hidden;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
-
-.product-section label {
-  position: relative;
-  display: inline-block;
-  padding: 15px 15px 25px;
-  border: 1px solid transparent;
-  border-bottom: 0;
-  cursor: pointer;
-  font-weight: 300;
-  cursor: pointer;
-  font-size: 26px;
-  color: $gray-400;
+.radio{
+  display:none;
 }
-
-.product-section  input[type="radio"]:checked + label{
-  color: #000;
-  font-weight: 600;
+#one:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,
+#two:checked ~ .panels #product-8FVGmVx4JjQZRUsxtYrL,
+#three:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,{
+  display:block;
+  height: auto !important;
 }
-
-.product-section  input[type="radio"]:checked + label::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 10px;
-    width: 50%;
-    height: 2px;
-    background: #4aa751;
-}
-
-
-.product-section   label:hover::after,
-.product-section   input:focus + label::after,
-.product-section   input:checked + label::after {
-  background: #06c;
-}
-
-.tab-panel {
-  padding: 30px 0;
-}
-
-.product-section {
-  max-width: 65em;
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab{
+    color: #000;
+    font-weight: 600;
+    &:after{
+          content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 10px;
+      width: 50%;
+      height: 2px;
+      background: #4aa751;
+    }
 }
