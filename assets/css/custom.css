@@ -14549,30 +14549,35 @@ body > div, body > section {
 
 /* line 47, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .slick-slide {
-  margin: 0 !important;
+  margin: 0 15px 0 0 !important;
 }
 
 /* line 50, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .slick-dots {
-  bottom: 20px;
+  bottom: -15px;
   text-align: left;
   display: block;
   z-index: 2;
 }
 
-/* line 58, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 57, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+.product-wrapper .slick-dots li button:before {
+  font-size: 10px;
+}
+
+/* line 65, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-quantity .minus {
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
 }
 
-/* line 62, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-quantity .plus {
   border-top-right-radius: 4px !important;
   border-bottom-right-radius: 4px !important;
 }
 
-/* line 66, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 73, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-quantity .input-text {
   width: 85px;
   margin: 0 -5px;
@@ -14582,12 +14587,12 @@ body > div, body > section {
   color: #fff;
 }
 
-/* line 75, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 82, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-size {
   margin-top: 10px;
 }
 
-/* line 78, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 85, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-image {
   margin-bottom: 0 !important;
   position: relative;
@@ -14600,7 +14605,7 @@ body > div, body > section {
         }*/
 }
 
-/* line 81, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 88, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-image img {
   width: 100%;
   height: auto;
@@ -14615,7 +14620,7 @@ body > div, body > section {
             }*/
 }
 
-/* line 102, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 109, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-info {
   /*        @media (min-width: 992px) {
             position: absolute;
@@ -14647,27 +14652,27 @@ body > div, body > section {
         }*/
 }
 
-/* line 132, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 139, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-meta {
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 136, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 143, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-title {
   margin-top: 15px;
   margin-bottom: 7.5px;
 }
 
 @media (max-width: 991px) {
-  /* line 136, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+  /* line 143, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
   .product-title {
     font-size: 18px;
     margin-top: 10px;
   }
 }
 
-/* line 144, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 151, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-excerpt {
   margin-bottom: 20px;
   /* @media (min-width: 992px){
@@ -14688,7 +14693,7 @@ body > div, body > section {
   /* }*/
 }
 
-/* line 163, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 170, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-availability {
   position: relative;
   bottom: 15px;
@@ -14697,7 +14702,7 @@ body > div, body > section {
   padding: 6px 15px 6px 25px;
 }
 
-/* line 170, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 177, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-availability .availability-text {
   color: #212529;
   font-size: 1.0625rem;
@@ -14705,13 +14710,13 @@ body > div, body > section {
   line-height: normal;
 }
 
-/* line 176, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 183, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-availability.coming_soon {
   background-color: #f0c60b;
   color: #000;
 }
 
-/* line 181, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 188, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-badge {
   background-color: #4aa751;
   color: #fff;
@@ -14721,42 +14726,42 @@ body > div, body > section {
   font-weight: 500;
 }
 
-/* line 192, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 199, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-badge.coming_soon {
   background-color: #f0c60b;
   color: #000;
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
-  /* line 181, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+  /* line 188, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
   .product-badge {
     font-size: 0.875rem;
   }
 }
 
 @media (min-width: 991px) {
-  /* line 181, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+  /* line 188, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
   .product-badge {
     display: none;
   }
 }
 
-/* line 214, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 221, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-image .item {
   display: none;
 }
 
-/* line 217, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 224, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-image .item:first-child {
   display: block;
 }
 
-/* line 220, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 227, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-image.slick-initialized .item {
   display: block;
 }
 
-/* line 226, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 233, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-content {
   /*    @media (min-width: 992px) {
         opacity: 0;
@@ -14765,12 +14770,12 @@ body > div, body > section {
     }*/
 }
 
-/* line 234, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 241, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper {
   position: relative;
 }
 
-/* line 237, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 244, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .product-price {
   /*  @media (min-width: 992px) {
             font-size: 30px;
@@ -14780,12 +14785,12 @@ body > div, body > section {
         }*/
 }
 
-/* line 244, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 251, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .product-price .symbol {
   font-size: 30px;
 }
 
-/* line 248, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 255, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .product-price del {
   font-size: 25px;
   font-weight: 400;
@@ -14796,13 +14801,13 @@ body > div, body > section {
   /*}*/
 }
 
-/* line 253, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 260, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .product-price del span {
   font-size: 23px;
 }
 
 @media (min-width: 992px) {
-  /* line 261, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+  /* line 268, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
   .product-wrapper .product-image {
     /*overflow: hidden;
             &:before{
@@ -14845,14 +14850,14 @@ body > div, body > section {
   }
 }
 
-/* line 304, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 311, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper .react-add-to-cart-container {
   /* @media (min-width: 992px) {
             pointer-events: visible;
         }*/
 }
 
-/* line 309, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 316, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper:hover {
   /* @media (min-width: 992px) {
             .normal-text{
@@ -14867,7 +14872,7 @@ body > div, body > section {
         }*/
 }
 
-/* line 310, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 317, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper:hover .product-content {
   /*@media (min-width: 992px) {
                 opacity: 1;
@@ -14876,7 +14881,7 @@ body > div, body > section {
             }*/
 }
 
-/* line 318, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 325, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper:hover .product-info h3 {
   /* @media (min-width: 992px) {
                     //transform: translate3d(0,0,0);
@@ -14884,7 +14889,7 @@ body > div, body > section {
                 }*/
 }
 
-/* line 325, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 332, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper:hover .product-image {
   /*@media (min-width: 992px) {
                 &:hover{
@@ -14897,19 +14902,19 @@ body > div, body > section {
             }*/
 }
 
-/* line 326, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 333, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .product-wrapper:hover .product-image::after {
   top: 100%;
   bottom: -100%;
 }
 
-/* line 354, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 361, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .currency-symbol {
   font-size: 14px;
   margin-right: 2px;
 }
 
-/* line 359, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
+/* line 366, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_product.scss */
 .cardend {
   opacity: 0 !important;
 }

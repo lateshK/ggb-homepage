@@ -68,7 +68,21 @@ if ($(window).width() < 1198) {
         }, "slow");
         return false;
     }
+
 }
+
+$(document).ready(function(){       
+    $('.product-image').slick({
+        dots: true,
+        infinite: true,
+        speed: 700,
+        autoplay:true,
+        autoplaySpeed: 2000,
+        arrows:false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+     });
+});
 
 $('#showdiv1').click(function() {
     $('div[id^=div]').css('opacity', 0);

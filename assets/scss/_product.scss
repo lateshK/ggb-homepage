@@ -45,13 +45,20 @@
         border-radius: 6px;
         width: 100%;
         .slick-slide{
-            margin: 0 !important;
+            margin: 0 15px 0 0 !important;
         }
         .slick-dots{
-            bottom: 20px;
+            bottom: -15px;
             text-align: left;
             display: block;
             z-index: 2;
+            li{
+                button{
+                    &:before{
+                        font-size: 10px;
+                    }
+                }
+            }
         }
     }
     &-quantity{
