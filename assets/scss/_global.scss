@@ -33,6 +33,20 @@
 			font-weight: 600;
 			font-size: 2.125rem;
 		}
+		.product-image{
+		    opacity: 0;
+		    visibility: hidden;
+		    transition: opacity 1s ease;
+		    -webkit-transition: opacity 1s ease;
+		    &.slick-initialized {
+		        visibility: visible;
+		        opacity: 1;  
+		    }
+		}
+		.slick-list {
+		    padding-left: 0px!important; // half partial
+		}
+
 		.aj-home-title{
 		    font-size: 2.5rem;
 			margin: auto;
