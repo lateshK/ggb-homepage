@@ -19,9 +19,9 @@
   width:100%;
 }
 .panel{
-  display: block;
-  height: 0;
-  overflow: hidden;
+display: none;
+overflow-y: hidden;
+
   animation: fadein .8s;
 }
 @keyframes fadein {
@@ -38,13 +38,18 @@
 }
 #one:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,
 #two:checked ~ .panels #product-8FVGmVx4JjQZRUsxtYrL,
-#three:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,{
+#three:checked ~ .panels .coming-soon,
+#four:checked ~ .panels .coming-soon,
+#five:checked ~ .panels .coming-soon,
+#six:checked ~ .panels .coming-soon{
   display:block;
-  height: auto !important;
 }
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
-#three:checked ~ .tabs #three-tab{
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab,
+#six:checked ~ .tabs #six-tab{
     color: #000;
     font-weight: 600;
     &:after{
@@ -58,4 +63,15 @@
       height: 2px;
       background: #4aa751;
     }
+}
+
+.tabs{
+   overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  width: 450px;
+  &::-webkit-scrollbar {
+  display: none;
+}
 }

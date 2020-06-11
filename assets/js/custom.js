@@ -104,6 +104,35 @@ $(document).ready(function(){
     });
 });
 
+$(".tabs .tab").on("click", function() {
+  $(".tabs .tab").removeClass("active");
+  $(this).addClass("active");
+  // CALL scrollCenter PLUSGIN
+  $(".tabs").scrollCenter(".active", 300);
+});
+
+jQuery.fn.scrollCenter = function(elem, speed) {
+
+  var active = jQuery(this).find(elem); 
+  var activeWidth = active.width() / 2; 
+  var pos = active.position().left + activeWidth;
+  var elpos = jQuery(this).scrollLeft(); 
+  var elW = jQuery(this).width(); 
+  pos = pos + elpos - elW / 2;
+
+  jQuery(this).animate({
+    scrollLeft: pos
+  }, speed == undefined ? 1000 : speed);
+  return this;
+};
+
+jQuery.fn.scrollCenterORI = function(elem, speed) {
+  jQuery(this).animate({
+    scrollLeft: jQuery(this).scrollLeft() - jQuery(this).offset().left + jQuery(elem).offset().left
+  }, speed == undefined ? 1000 : speed);
+  return this;
+};
+
 $('#showdiv1').click(function() {
     $('div[id^=div]').css('opacity', 0);
     $('#div1').css('opacity', 1);
