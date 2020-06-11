@@ -102,6 +102,16 @@ $(document).ready(function(){
     $carousel.on('afterChange', function() {
       setSlideVisibility();
     });
+
+    $('.full-slider').slick({
+        // lazyLoad: 'ondemand',
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+    });
+
 });
 
 $(".tabs .tab").on("click", function() {

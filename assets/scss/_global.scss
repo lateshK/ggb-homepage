@@ -143,11 +143,53 @@
 	top: 0;
 	bottom: 0;
 	display: block;
+	.full-slider{
+		height: 100%;
+		img{
+			width: 100%;
+			height: auto;
+			@media (max-width: 1600px) {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.slick-list{
+			height: 100%;
+			.slick-track{
+				height: 100%;
+				.slick-slide {
+					margin-left: 0;
+				}
+			}
+		}
+		.slick-dots{
+			bottom: 40px;
+			li{
+				button{
+					&::before{
+						font-size: 18px;
+						opacity: 0.45;
+					}
+				}
+				&.slick-active{
+					button{
+						&::before{
+							font-size: 18px;
+							opacity: 0.85;
+						}
+					}
+				}
+			}
+		}
+	}
 	.main-image{
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-image: url(https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/06/healthy-food-bowl-1.jpg);
+		background-image: url(https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/front_banner_2.jpg);
 		height: 100%;
+		&.main-child-2{
+			background-image: url(https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/front_banner_1.jpg);
+		}
 	}
 	@media (max-width: 768px){
 		display: none;
