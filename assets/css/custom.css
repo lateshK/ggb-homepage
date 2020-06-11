@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -12852,6 +12853,80 @@ input[type='number']:focus, input[type='tel']:focus {
   font-weight: 300 !important;
 }
 
+/* line 63, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+.select-wrapper .select-wrapper-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+.select-wrapper:first-child {
+  padding-right: 10px;
+}
+
+/* line 72, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+.select-wrapper:last-child {
+  padding-left: 10px;
+}
+
+/* line 77, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+select {
+  width: 100%;
+  height: 54px;
+  border: 1px solid #47a748;
+  color: #7c7c7c !important;
+  font-size: 16px;
+  border-radius: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  cursor: pointer;
+}
+
+/* line 91, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+select:focus {
+  border: 1px solid #47a748;
+  outline: 0;
+  border-radius: 0;
+}
+
+/* line 98, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+select::-ms-expand {
+  display: none;
+}
+
+/* line 102, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+.w-50 {
+  width: 60%;
+}
+
+/* line 106, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+.select-inner-wrap {
+  position: relative;
+}
+
+/* line 108, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_input.scss */
+.select-inner-wrap::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #47a748;
+  border-top: 0;
+  border-right: 0;
+  transform: translateY(-50%) rotate(-45deg);
+  pointer-events: none;
+  margin-top: -3px;
+}
+
 /* line 1, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .msg-container {
   position: fixed;
@@ -12991,7 +13066,22 @@ input[type='number']:focus, input[type='tel']:focus {
 /* line 120, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .success.toast {
   background: #ecf6ec;
-  color: #4aa751;
+}
+
+@media (max-width: 991px) {
+  /* line 120, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  .success.toast {
+    color: #000000;
+  }
+  /* line 124, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  .success.toast span {
+    display: flex;
+    align-items: center;
+  }
+  /* line 127, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  .success.toast span svg {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -13005,13 +13095,13 @@ input[type='number']:focus, input[type='tel']:focus {
   }
 }
 
-/* line 132, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 141, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .failure.toast {
   background: #ecf6ec;
 }
 
 @media (min-width: 992px) {
-  /* line 132, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 141, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .failure.toast {
     font-size: 18px;
     background: #fff;
@@ -13021,26 +13111,26 @@ input[type='number']:focus, input[type='tel']:focus {
   }
 }
 
-/* line 143, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 152, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .p-15 {
   padding: 15px;
 }
 
 @media (min-width: 1600px) {
-  /* line 147, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 156, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .custom-col-3 {
     flex: 0 0 25%;
     max-width: 25%;
   }
 }
 
-/* line 154, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 163, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .text-line {
   height: 25px;
   width: 100%;
 }
 
-/* line 160, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 169, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .animated-background, .text-line {
   animation-duration: 1.25s;
   animation-fill-mode: forwards;
@@ -13063,7 +13153,7 @@ input[type='number']:focus, input[type='tel']:focus {
   }
 }
 
-/* line 183, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 192, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .close-img {
   position: absolute;
   right: -20px;
@@ -13071,7 +13161,7 @@ input[type='number']:focus, input[type='tel']:focus {
 }
 
 @media (max-width: 991px) {
-  /* line 183, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 192, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .close-img {
     right: -7px;
   }
@@ -13086,12 +13176,12 @@ input[type='number']:focus, input[type='tel']:focus {
   }
 }
 
-/* line 202, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 211, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .app-log {
   max-width: 85px;
 }
 
-/* line 206, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 215, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .cart-wrapper {
   position: fixed;
   top: 0;
@@ -13105,19 +13195,25 @@ input[type='number']:focus, input[type='tel']:focus {
   width: 410px;
   padding-bottom: 52px;
   background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* line 220, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 229, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+.cart-wrapper .delivery-address-container {
+  margin-top: 15px;
+}
+
+/* line 233, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .cart-wrapper.active {
   transform: translate(0, 0);
 }
 
-/* line 224, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 237, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .cursor-pointer {
   cursor: pointer;
 }
 
-/* line 228, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 241, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .gbb-original-price {
   font-size: 80%;
   text-decoration: line-through;
@@ -13126,13 +13222,13 @@ input[type='number']:focus, input[type='tel']:focus {
   margin-right: 5px;
 }
 
-/* line 236, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 249, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .gbb-discount {
   font-size: 80%;
   font-weight: 400;
 }
 
-/* line 241, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 254, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .cart-app-loader {
   display: flex;
   justify-content: center;
@@ -13143,20 +13239,20 @@ input[type='number']:focus, input[type='tel']:focus {
   text-transform: uppercase;
 }
 
-/* line 251, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 264, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .saved-address-item {
   white-space: normal;
   text-align: left;
 }
 
 @media (max-width: 480px) {
-  /* line 257, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 270, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .cart-wrapper {
     width: 100%;
   }
 }
 
-/* line 262, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 275, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .custom-modal {
   position: fixed;
   left: 0;
@@ -13173,13 +13269,13 @@ input[type='number']:focus, input[type='tel']:focus {
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 
-/* line 278, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 291, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .price-span {
   display: inline-block;
   min-width: 100px;
 }
 
-/* line 283, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 296, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .line-animation {
   position: relative;
   width: 20px;
@@ -13219,18 +13315,18 @@ input[type='number']:focus, input[type='tel']:focus {
   }
 }
 
-/* line 310, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 323, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .vc_row.wpb_row.vc_row-fluid.main-row {
   display: flex;
 }
 
-/* line 314, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 327, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .left-content.wpb_column {
   width: 35%;
   padding-right: 32px;
 }
 
-/* line 319, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 332, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .right-content.wpb_column {
   width: 65%;
   position: fixed;
@@ -13240,7 +13336,7 @@ input[type='number']:focus, input[type='tel']:focus {
   padding-left: 50px;
 }
 
-/* line 328, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+/* line 341, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
 .main-post-img img {
   -o-object-fit: cover;
   object-fit: cover;
@@ -13248,21 +13344,31 @@ input[type='number']:focus, input[type='tel']:focus {
   height: 100vh;
 }
 
+/* line 350, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+.p-add span {
+  margin-right: 18px;
+}
+
+/* line 353, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+.p-add i {
+  top: 0;
+}
+
 @media (max-width: 991px) {
-  /* line 336, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 359, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .vc_row.wpb_row.vc_row-fluid.main-row {
     display: block;
   }
-  /* line 339, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 362, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .left-content.wpb_column {
     width: 100%;
     padding-right: 0;
   }
-  /* line 343, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 366, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .main-post-img {
     display: none;
   }
-  /* line 346, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
+  /* line 369, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_misc.scss */
   .right-content.wpb_column {
     display: none !important;
   }
@@ -13653,7 +13759,7 @@ section {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(173, 181, 189, 0.6);
+  background: rgba(94, 97, 99, 0.6);
   z-index: 1199;
   display: none;
 }
@@ -14381,12 +14487,7 @@ nav img {
   font-weight: 600;
 }
 
-/* line 5, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
-.post-content h1::last-word {
-  color: red;
-}
-
-/* line 9, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 10, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .post-meta {
   font-size: 1.3rem;
   font-weight: 500;
@@ -14394,14 +14495,14 @@ nav img {
   margin: 40px 0 50px;
 }
 
-/* line 15, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 16, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content h2 {
   font-weight: 600;
   font-size: 1.8rem;
   margin-bottom: 30px;
 }
 
-/* line 20, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 21, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content h3 {
   font-weight: 400;
   font-size: 1.9rem;
@@ -14409,7 +14510,7 @@ nav img {
   margin-bottom: 50px;
 }
 
-/* line 26, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content p, .post-content ul {
   font-size: 1.3rem;
   line-height: 1.4;
@@ -14417,34 +14518,34 @@ nav img {
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-  /* line 26, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+  /* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
   .post-content p, .post-content ul {
     font-size: 1.375rem;
   }
-  /* line 32, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+  /* line 33, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
   .post-content p .font-weight-bold, .post-content ul .font-weight-bold {
     font-size: 1.6rem;
   }
 }
 
-/* line 37, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 38, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content img {
   max-width: 100%;
   display: block;
   margin: auto;
 }
 
-/* line 42, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 43, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .bg-gray {
   background-color: #f1f1f1;
 }
 
-/* line 44, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 45, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .bg-gray img {
   max-width: 80%;
 }
 
-/* line 48, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 49, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .next-title {
   font-family: "Libre Baskerville", Baskerville, georgia, serif;
   font-style: italic;
@@ -14452,12 +14553,12 @@ nav img {
   margin: 20px 0 10px;
 }
 
-/* line 53, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 54, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .next-title i {
   color: #4aa751;
 }
 
-/* line 57, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 59, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .next-post a {
   font-size: 1.6rem;
   font-weight: 500;
@@ -14465,28 +14566,28 @@ nav img {
 }
 
 @media (max-width: 767px) {
-  /* line 64, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+  /* line 66, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
   .post-content .next-title {
     font-size: 0.9rem;
   }
-  /* line 67, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+  /* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
   .post-content .next-post a {
     font-size: 1rem;
     line-height: 22px;
   }
 }
 
-/* line 73, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 75, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .post-content .highlight:before {
   display: none;
 }
 
-/* line 79, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 81, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .single-post_cats_tags {
   margin-bottom: 15px;
 }
 
-/* line 81, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
+/* line 83, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_post.scss */
 .single-post_cats_tags a {
   font-size: 14px;
   color: #94a1ae;
@@ -15583,32 +15684,33 @@ div.ff-stream {
   font-style: italic;
   text-transform: lowercase;
   padding-top: 30px;
+  padding-bottom: 30px;
   font-weight: 600;
   font-family: Libre Baskerville,Baskerville,georgia,serif !important;
 }
 
-/* line 113, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 114, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section {
   padding: 2rem 0 3rem;
 }
 
-/* line 116, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 117, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details a {
   font-size: 20.4px;
 }
 
-/* line 118, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 119, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details a:hover {
   color: #4aa751;
 }
 
-/* line 122, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 123, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details h4 {
   font-size: 20.4px;
 }
 
 @media (min-width: 992px) {
-  /* line 115, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 116, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .main-content .contentLeft .footer-section .contact-details {
     margin: 25px 0;
   }
@@ -15621,7 +15723,7 @@ div.ff-stream {
   }
 }
 
-/* line 135, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 136, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight {
   position: fixed;
   left: 550px;
@@ -15631,7 +15733,7 @@ div.ff-stream {
   display: block;
 }
 
-/* line 142, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 143, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .main-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -15640,7 +15742,7 @@ div.ff-stream {
 }
 
 @media (max-width: 768px) {
-  /* line 135, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 136, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .contentRight {
     display: none;
   }
@@ -15657,7 +15759,7 @@ div.ff-stream {
 .tab {
   position: relative;
   display: inline-block;
-  padding: 15px 15px 25px;
+  padding: 15px 15px 25px 0;
   border: 1px solid transparent;
   border-bottom: 0;
   cursor: pointer;
@@ -15688,12 +15790,12 @@ div.ff-stream {
   }
 }
 
-/* line 36, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 35, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .radio {
   display: none;
 }
 
-/* line 39, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 38, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 #one:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,
 #two:checked ~ .panels #product-8FVGmVx4JjQZRUsxtYrL,
 #three:checked ~ .panels .coming-soon,
@@ -15703,7 +15805,7 @@ div.ff-stream {
   display: block;
 }
 
-/* line 47, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 48, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab,
@@ -15714,7 +15816,7 @@ div.ff-stream {
   font-weight: 600;
 }
 
-/* line 55, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 56, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 #one:checked ~ .tabs #one-tab:after,
 #two:checked ~ .tabs #two-tab:after,
 #three:checked ~ .tabs #three-tab:after,
@@ -15732,7 +15834,7 @@ div.ff-stream {
   background: #4aa751;
 }
 
-/* line 68, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tabs {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -15741,9 +15843,16 @@ div.ff-stream {
   width: 450px;
 }
 
-/* line 74, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 75, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tabs::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 768px) {
+  /* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+  .tabs {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
