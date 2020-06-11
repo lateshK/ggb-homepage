@@ -119,6 +119,11 @@
 
 .success.toast{
     background: #ecf6ec;
+    svg{
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
     @media (max-width: 991px) {
         color: #000000;
         span{
@@ -348,7 +353,10 @@
 
 .p-add{
     span{
-        margin-right: 18px;
+        margin-right: 45px;
+        @media (max-width: 767px) {
+            margin-right: 25px;
+        }
     }
     i{
         top: 0;
