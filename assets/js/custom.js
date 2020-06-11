@@ -104,7 +104,7 @@ $(document).ready(function(){
     });
 
     $('.full-slider').slick({
-        // lazyLoad: 'ondemand',
+        lazyLoad: 'ondemand',
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
