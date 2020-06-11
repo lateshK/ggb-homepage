@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
     <link rel="stylesheet" href="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/css/animate.min.css">
-    <link rel='icon' type='image/x-icon' href='https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/images/Favicon-48.png'/>
+    <link rel='icon' type='image/x-icon' href='assets/images/Favicon-48.png'/>
 	
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
@@ -59,7 +59,7 @@
 					</div>
 					<div class="text-center">
 						<div class="text-center py-4 px-3">
-							<img src="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
+							<img src="assets/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
 						</div>
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
@@ -102,10 +102,10 @@
 					                                    </div>
 					                                    <div class="product-image">
 					                                        <div class="slick-slideshow__slide">
-					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg" alt="Orange Barley Bowl (Tofu)" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg" />
+					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/OBB-Tofu_800.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/OBB-Tofu_800.jpg" data-srcset="assets/images/OBB-Tofu_800.jpg" />
 					                                        </div>
 					                                        <div class="slick-slideshow__slide">
-					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg" alt="Orange Barley Bowl (Tofu)" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg" />
+					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/OBB-Tofu_800.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/OBB-Tofu_800.jpg" data-srcset="assets/images/OBB-Tofu_800.jpg" />
 					                                        </div>
 					                                    </div>
 					                                    <div class="product-meta d-flex mt-5">
@@ -123,7 +123,7 @@
 					                                              "size": "bowl"
 					                                            },
 					                                            "images": [
-					                                              "https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Tofu_800.jpg"
+					                                              "assets/images//OBB-Tofu_800.jpg"
 					                                            ],
 					                                            "class": "cardfour",
 					                                            "put_empty": true,
@@ -148,10 +148,10 @@
 					                                    </div>
 					                                    <div class="product-image">
 					                                        <div class="slick-slideshow__slide">
-					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg" alt="Orange Barley Bowl (Chicken)" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg" />
+					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/OBB-Chicken_800.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/OBB-Chicken_800.jpg" data-srcset="assets/images/OBB-Chicken_800.jpg" />
 					                                        </div>
 					                                        <div class="slick-slideshow__slide">
-					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg" alt="Orange Barley Bowl (Chicken)" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg" />
+					                                            <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/OBB-Chicken_800.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/OBB-Chicken_800.jpg" data-srcset="assets/images/OBB-Chicken_800.jpg" />
 					                                        </div>
 					                                    </div>
 					                                    <div class="product-meta d-flex mt-5">
@@ -168,7 +168,7 @@
 					                                            "size": "bowl"
 					                                            },
 					                                            "images": [
-					                                            "https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/OBB-Chicken_800.jpg"
+					                                            "assets/images/OBB-Chicken_800.jpg"
 					                                            ],
 					                                            "class": "cardfive",
 					                                            "put_empty": false,
@@ -192,10 +192,10 @@
 					                                    </div>
 					                                    <div class="product-image">
 					                                        <div class="slick-slideshow__slide">
-					                                            <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg" alt="Mango Quinoa Bowl" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg" />
+					                                            <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl" data-src="assets/images/MQB-Veg.jpg" data-srcset="assets/images/MQB-Veg.jpg" />
 					                                        </div>
 					                                        <div class="slick-slideshow__slide">
-					                                            <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg" alt="Mango Quinoa Bowl" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg" />
+					                                            <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl" data-src="assets/images/MQB-Veg.jpg" data-srcset="assets/images/MQB-Veg.jpg" />
 					                                        </div>
 					                                    </div>
 					                                    <div class="product-meta d-flex mt-5">
@@ -212,8 +212,7 @@
 					                                              "size": "bowl"
 					                                            },
 					                                            "images": [
-					                                              "https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg.jpg",
-					                                              "https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Veg-2.jpg"
+					                                              "assets/images/MQB-Veg.jpg"
 					                                            ],
 					                                            "class": "cardone",
 					                                            "put_empty": false,
@@ -238,10 +237,10 @@
 					                                    <div class="lg-w-50">
 					                                        <div class="product-image">
 					                                            <div class="slick-slideshow__slide">
-					                                                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg" />
+					                                                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken.jpg" data-srcset="assets/images/MQB-Chicken.jpg" />
 					                                            </div>
 					                                            <div class="slick-slideshow__slide">
-					                                                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg" data-srcset="https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg" />
+					                                                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken.jpg" data-srcset="assets/images/MQB-Chicken.jpg" />
 					                                            </div>
 					                                        </div>
 					                                    </div>
@@ -259,8 +258,7 @@
 					                                            "size": "bowl"
 					                                          },
 					                                          "images": [
-					                                            "https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken.jpg",
-					                                            "https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/MQB-Chicken-2.jpg"
+					                                            "assets/images/MQB-Chicken.jpg"
 					                                          ],
 					                                          "class": "cardone",
 					                                          "put_empty": false,
