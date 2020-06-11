@@ -10,6 +10,7 @@
 	}
 	a{
 	    white-space: nowrap;
+	    font-size: 16px;
 	}
 	@media (max-width: 768px){
 		max-width: 100%;
@@ -36,6 +37,7 @@
 			font-weight: 700;
 			padding: 8rem 15px 5rem;
 		    white-space: break-spaces;
+	        color: #212529;
 			.clutch{
 			    display: inline-block;
 			    position: relative;
@@ -44,6 +46,7 @@
 			    -moz-user-select: none;
 			    -ms-user-select: none;
 			    user-select: none;
+			    color: #000;
 				.clutch-open{
 					overflow: hidden;
 					-webkit-transition: all .35s;
