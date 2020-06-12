@@ -86,15 +86,10 @@
 
 										<?php 
 
-											date('w'); //gets day of week as number(0=sunday,1=monday...,6=sat)
-
-											$day_of_week = date('w');
-
-
 											if(isset($_REQUEST['day']))
 											{
     											$day_param = strtolower($_REQUEST['day']);
-    											echo print_r($day_param);
+    											echo print_r("query param set ".$day_param);
     											
     											if(day_param == "monday")
 													$day_of_week = 1;
@@ -109,6 +104,8 @@
     											if(day_param == "saturday" or day_param == "sunday" or day_param == "weekend")
 													$day_of_week = 6;	
 											}
+											else
+												$day_of_week = date('w'); //gets day of week as number(0=sunday,1=monday...,6=sat)
 
 										?>
 
