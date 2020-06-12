@@ -93,6 +93,7 @@
 											$day_of_week = date('w');
 
 											echo "DAY of the week is ".$day_of_week; 
+											if($day_of_week == 5) echo 'active';
 	                                      
 										?>
 
