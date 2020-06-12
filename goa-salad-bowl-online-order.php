@@ -330,7 +330,7 @@
 				                        	<div id="Friday" class="row product-list m-auto panel">
 					                        	<div class="coming-soon"> Coming Soon </div>
 					                        </div>
-					                        <div id="Saturday" class="row product-list m-auto panel">
+					                        <div id="Weekend" class="row product-list m-auto panel">
 					                        	<div class="coming-soon"> Coming Soon </div>
 					                        </div>
 			                        	</div>
