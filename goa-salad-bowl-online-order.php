@@ -535,7 +535,7 @@
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
 	<script src="https://order.greengrainbowl.com/site/firebase-functions.js?_1" type="text/javascript"></script>
-	<script src="https://order.greengrainbowl.com/site/react-components.1591861151783.js" type="text/javascript"></script>
+	<script src="https://order.greengrainbowl.com/site/react-components.1591954010367.js" type="text/javascript"></script>
 	
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
