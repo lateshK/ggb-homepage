@@ -15973,8 +15973,22 @@ div.ff-stream {
   align-items: center;
 }
 
-/* line 6, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.tab {
+/* line 5, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .radio {
+  display: none;
+}
+
+/* line 8, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .tabs {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  width: 450px;
+}
+
+/* line 14, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .tabs .tab {
   position: relative;
   display: inline-block;
   padding: 15px 0 25px 0;
@@ -15988,13 +16002,44 @@ div.ff-stream {
   margin-right: 15px;
 }
 
-/* line 19, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.panels {
+/* line 26, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .tabs .tab.active {
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+
+/* line 29, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .tabs .tab.active:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10px;
+  width: 50%;
+  height: 2px;
+  background: #4aa751;
+}
+
+/* line 42, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .tabs::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* line 8, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+  .tab-panels .tabs {
+    width: 90%;
+  }
+}
+
+/* line 49, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .panels {
   width: 100%;
 }
 
-/* line 22, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.panel {
+/* line 51, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+.tab-panels .panels .panel {
   display: none;
   overflow-y: hidden;
   animation: fadein .8s;
@@ -16009,69 +16054,14 @@ div.ff-stream {
   }
 }
 
-/* line 36, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.radio {
-  display: none;
-}
-
-/* line 39, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-#one:checked ~ .panels #product-1CG6P1slxnr9TSNnPzvZ,
-#two:checked ~ .panels #product-8FVGmVx4JjQZRUsxtYrL,
-#three:checked ~ .panels .coming-soon,
-#four:checked ~ .panels .coming-soon,
-#five:checked ~ .panels .coming-soon,
-#six:checked ~ .panels .coming-soon {
+/* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+#mon:checked ~ .panels #Monday,
+#tue:checked ~ .panels #Tuesday,
+#wed:checked ~ .panels #Wednesday,
+#thrus:checked ~ .panels #Thrusday,
+#fri:checked ~ .panels #Friday,
+#sat:checked ~ .panels #Saturday {
   display: block;
-}
-
-/* line 49, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-#one:checked ~ .tabs #one-tab,
-#two:checked ~ .tabs #two-tab,
-#three:checked ~ .tabs #three-tab,
-#four:checked ~ .tabs #four-tab,
-#five:checked ~ .tabs #five-tab,
-#six:checked ~ .tabs #six-tab {
-  color: #000;
-  font-weight: 600;
-}
-
-/* line 57, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-#one:checked ~ .tabs #one-tab:after,
-#two:checked ~ .tabs #two-tab:after,
-#three:checked ~ .tabs #three-tab:after,
-#four:checked ~ .tabs #four-tab:after,
-#five:checked ~ .tabs #five-tab:after,
-#six:checked ~ .tabs #six-tab:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 10px;
-  width: 50%;
-  height: 2px;
-  background: #4aa751;
-}
-
-/* line 70, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.tabs {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  white-space: nowrap;
-  width: 450px;
-}
-
-/* line 76, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-.tabs::-webkit-scrollbar {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  /* line 70, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
-  .tabs {
-    width: 100%;
-  }
 }
 
 /*# sourceMappingURL=custom.css.map */

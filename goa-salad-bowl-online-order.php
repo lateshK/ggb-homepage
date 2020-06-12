@@ -76,12 +76,12 @@
 				                <div class="col-xl-12">
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
-			                    	  	<input class="radio" id="one" name="group" type="radio" checked>
-										<input class="radio" id="two" name="group" type="radio">
-										<input class="radio" id="three" name="group" type="radio">
-			                    	  	<input class="radio" id="four" name="group" type="radio" >
-										<input class="radio" id="five" name="group" type="radio">
-										<input class="radio" id="six" name="group" type="radio">
+			                    	  	<input class="radio" id="mon" name="group" type="radio" checked>
+										<input class="radio" id="tue" name="group" type="radio">
+										<input class="radio" id="wed" name="group" type="radio">
+			                    	  	<input class="radio" id="thrus" name="group" type="radio" >
+										<input class="radio" id="fri" name="group" type="radio">
+										<input class="radio" id="weekend" name="group" type="radio">
 										
 
 										<?php 
@@ -127,18 +127,18 @@
 										?>
 
 										<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="one">Monday</label>
-											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
-											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
-											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="four">Thursday</label>
-											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="five">Friday</label>
-											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="six-tab" for="six">Weekend</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Monday</label>
+											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tuesday</label>
+											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
+											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
+											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
+											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weekend" for="six">Weekend</label>
 										</div>
 
 
 									 	<div class="panels">
-					                        <div class="row product-list m-auto">
-					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4 panel">
+					                        <div id="Monday" class="row product-list m-auto panel">
+					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Tofu)</h3>
@@ -184,7 +184,7 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-4 panel">
+					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-4">
 					                                <div class="product-wrapper cardfive">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Chicken)</h3>
@@ -228,7 +228,9 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4 panel">
+				                            </div>
+				                            <div id="Tuesday" class="row product-list m-auto panel">
+					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Red Kidney Beans (Rajma))</h3>
@@ -272,7 +274,7 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 my-4 product-list-item p-lg-0 effect trigger5 panel">
+					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 my-4 product-list-item p-lg-0 effect trigger5">
 					                                <div class="product-wrapper cardfive">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Chicken)</h3>
@@ -319,7 +321,18 @@
 					                                </div>
 					                            </div>
 					                        </div>
-				                        	<div class="coming-soon panel"> Coming Soon </div>
+					                        <div id="Wednesday" class="row product-list m-auto panel">
+					                        	<div class="coming-soon"> Coming Soon </div>
+					                        </div>
+					                        <div id="Thrusday" class="row product-list m-auto panel">
+			                        			<div class="coming-soon"> Coming Soon </div>
+					                        </div>
+				                        	<div id="Friday" class="row product-list m-auto panel">
+					                        	<div class="coming-soon"> Coming Soon </div>
+					                        </div>
+					                        <div id="Saturday" class="row product-list m-auto panel">
+					                        	<div class="coming-soon"> Coming Soon </div>
+					                        </div>
 			                        	</div>
 				                    </div>
 				                </div>
