@@ -90,14 +90,11 @@
 
 											$day_of_week = date('w');
 
-											echo $_SERVER['REQUEST_URI'];
-											echo print_r($_REQUEST);
-											echo print_r($_GET);
 
-
-											if(isset($_GET['day']))
+											if(isset($_REQUEST['day']))
 											{
-    											$day_param = strtolower($_GET['day']);
+    											$day_param = strtolower($_REQUEST['day']);
+    											echo print_r($day_param);
     											
     											if(day_param == "monday")
 													$day_of_week = 1;
