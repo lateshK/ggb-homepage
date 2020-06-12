@@ -81,7 +81,7 @@
 										<input class="radio" id="wed" name="group" type="radio">
 			                    	  	<input class="radio" id="thrus" name="group" type="radio" >
 										<input class="radio" id="fri" name="group" type="radio">
-										<input class="radio" id="weekend" name="group" type="radio">
+										<input class="radio" id="week" name="group" type="radio">
 										
 
 										<?php 
@@ -132,7 +132,7 @@
 											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
 											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
 											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
-											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weekend" for="six">Weekend</label>
+											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="week" for="six">Weekend</label>
 										</div>
 
 
