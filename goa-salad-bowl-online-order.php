@@ -55,7 +55,7 @@
 						</div>
 					</figure> -->
 					<div class="block-description">
-						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. <div class="clutch">5 days a week.<div class="clutch-open"></div></div> Order before 11.00 a,m for <div class="clutch">Lunch Orders<div class="clutch-open"></div></div> and before 4.00 P.M for <div class="clutch">Dinner Orders.<div class="clutch-open"></div></div> </div>
+						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. <div class="clutch">5 days a week.<div class="clutch-open"></div></div> Order before 10.00 A.M for <div class="clutch">Lunch Orders<div class="clutch-open"></div></div> and before 3.00 P.M for <div class="clutch">Dinner Orders.<div class="clutch-open"></div></div> </div>
 					</div>
 					<div class="text-center">
 						<div class="text-center py-4 px-3">
@@ -63,7 +63,7 @@
 						</div>
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
-								<h1 class="font-weight-bold d-block mobile-header mb-2 display-4 aj-home-title" style="text-align: center">Full Week's Menu</h1>
+								<h1 class="font-weight-bold d-block mobile-header mb-2 display-4 aj-home-title" style="text-align: center">This Week's Menu</h1>
 							</div>
 						</div>
 					</div>
