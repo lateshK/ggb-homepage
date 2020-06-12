@@ -80,9 +80,11 @@
 		    visibility: hidden;
 		    transition: opacity 1s ease;
 		    -webkit-transition: opacity 1s ease;
+	       	height: 0vh;
 		    &.slick-initialized {
 		        visibility: visible;
-		        opacity: 1;  
+		        opacity: 1; 
+		        height: auto;
 		    }
 		}
 		.slick-list {

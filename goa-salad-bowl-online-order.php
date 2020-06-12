@@ -139,7 +139,7 @@
 
 									 	<div class="panels">
 					                        <div id="Monday" class="row product-list m-auto panel">
-					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4">
+					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-5">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Tofu)</h3>
@@ -185,7 +185,7 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-4">
+					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-5">
 					                                <div class="product-wrapper cardfive">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Chicken)</h3>
@@ -231,7 +231,7 @@
 					                            </div>
 				                            </div>
 				                            <div id="Tuesday" class="row product-list m-auto panel">
-					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4">
+					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-5">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Red Kidney Beans (Rajma))</h3>
@@ -275,7 +275,7 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 my-4 product-list-item p-lg-0 effect trigger5">
+					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 my-4 product-list-item p-lg-0 effect trigger5 my-5">
 					                                <div class="product-wrapper cardfive">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Chicken)</h3>
