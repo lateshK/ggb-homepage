@@ -105,7 +105,7 @@
 													$day_of_week = 4;											
     											if(day_param == "friday")
 													$day_of_week = 5;	
-    											if(day_param == "saturday" or day_param == "sunday" or day_param = "weekend")
+    											if(day_param == "saturday" or day_param == "sunday" or day_param == "weekend")
 													$day_of_week = 6;	
 											}
 
