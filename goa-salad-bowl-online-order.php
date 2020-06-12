@@ -76,15 +76,7 @@
 				                <div class="col-xl-12">
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
-			                    	  	<input class="radio" id="mon" name="group" type="radio" checked>
-										<input class="radio" id="tue" name="group" type="radio">
-										<input class="radio" id="wed" name="group" type="radio">
-			                    	  	<input class="radio" id="thrus" name="group" type="radio" >
-										<input class="radio" id="fri" name="group" type="radio">
-										<input class="radio" id="week" name="group" type="radio">
-										
-
-										<?php 
+				                    	<?php 
 
 											if(isset($_REQUEST['day']))
 											{
@@ -125,6 +117,15 @@
 											}
 
 										?>
+			                    	  	<input class="radio show" id="mon" name="group" type="radio" <?php if($day_of_week == 1) echo 'checked' ?>>
+										<input class="radio" id="tue" name="group" type="radio" <?php if($day_of_week == 2) echo 'checked' ?>>
+										<input class="radio" id="wed" name="group" type="radio" <?php if($day_of_week == 3) echo 'checked' ?>>
+			                    	  	<input class="radio" id="thrus" name="group" type="radio" <?php if($day_of_week == 4) echo 'checked' ?>>
+										<input class="radio" id="fri" name="group" type="radio" <?php if($day_of_week == 5) echo 'checked' ?>>
+										<input class="radio" id="week" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
+										
+
+										
 
 										<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
 											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Monday</label>
