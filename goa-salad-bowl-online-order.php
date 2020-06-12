@@ -89,7 +89,7 @@
 											if(isset($_REQUEST['day']))
 											{
     											$day_param = strtolower($_REQUEST['day']);
-    											echo print_r("query param set ".$day_param);
+    											echo "query param set ".$day_param;
     											
     											if(day_param == "monday")
 													$day_of_week = 1;
@@ -104,8 +104,10 @@
     											if(day_param == "saturday" or day_param == "sunday" or day_param == "weekend")
 													$day_of_week = 6;	
 											}
-											else
+											else{
+												echo "no query param set";
 												$day_of_week = date('w'); //gets day of week as number(0=sunday,1=monday...,6=sat)
+											}
 
 										?>
 
