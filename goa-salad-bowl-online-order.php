@@ -96,11 +96,11 @@
 
 										<div class="tabs">
 											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="one">Monday</label>
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="four-tab" for="four">Thrusday</label>
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="five-tab" for="five">Friday</label>
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="six-tab" for="six">Saturday</label>
+											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
+											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
+											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="four">Thrusday</label>
+											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="five">Friday</label>
+											<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="six-tab" for="six">Saturday</label>
 										</div>
 
 
