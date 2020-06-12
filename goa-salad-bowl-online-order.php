@@ -120,7 +120,7 @@
     											}
 											}
 											else{
-												echo "no query param set";
+												// echo "no query param set";
 												$day_of_week = date('w'); //gets day of week as number(0=sunday,1=monday...,6=sat)
 											}
 
