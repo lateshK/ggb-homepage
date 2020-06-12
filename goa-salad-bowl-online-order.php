@@ -64,6 +64,7 @@
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
 								<h1 class="font-weight-bold d-block mobile-header mb-2 display-4 aj-home-title" style="text-align: center">This Week's Menu</h1>
+								<p class="body-text">Browse through the daily menu and add one or more bowls to the cart. You can order for the entire week together or for any one day.</p>
 							</div>
 						</div>
 					</div>
@@ -122,7 +123,7 @@
 										<input class="radio" id="wed" name="group" type="radio" <?php if($day_of_week == 3) echo 'checked' ?>>
 			                    	  	<input class="radio" id="thrus" name="group" type="radio" <?php if($day_of_week == 4) echo 'checked' ?>>
 										<input class="radio" id="fri" name="group" type="radio" <?php if($day_of_week == 5) echo 'checked' ?>>
-										<input class="radio" id="week" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
+										<input class="radio" id="weekends" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
 										
 
 										
@@ -133,13 +134,13 @@
 											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
 											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
 											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
-											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="week" for="six">Weekend</label>
+											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
 										</div>
 
 
 									 	<div class="panels">
 					                        <div id="Monday" class="row product-list m-auto panel">
-					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-5">
+					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Tofu)</h3>
@@ -185,7 +186,7 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-5">
+					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 					                                <div class="product-wrapper cardfive">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Chicken)</h3>
@@ -231,7 +232,7 @@
 					                            </div>
 				                            </div>
 				                            <div id="Tuesday" class="row product-list m-auto panel">
-					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-5">
+					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Red Kidney Beans (Rajma))</h3>
@@ -275,7 +276,7 @@
 					                                    </div>
 					                                </div>
 					                            </div>
-					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 my-4 product-list-item p-lg-0 effect trigger5 my-5">
+					                            <div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 my-4 product-list-item p-lg-0 effect trigger5 my-6">
 					                                <div class="product-wrapper cardfive">
 					                                    <div class="lg-w-50 hover-text">
 					                                        <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Chicken)</h3>
@@ -323,7 +324,11 @@
 					                            </div>
 					                        </div>
 					                        <div id="Wednesday" class="row product-list m-auto panel">
-					                        	<div class="coming-soon"> Coming Soon </div>
+					                        	<div class="alert alert-light">
+													<img src="assets/images/sold-out.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each days bowls are made from scratch and in small batches. They sell out often and we request you to order a day before.
+													</p>
+												</div>
 					                        </div>
 					                        <div id="Thrusday" class="row product-list m-auto panel">
 			                        			<div class="coming-soon"> Coming Soon </div>
@@ -332,7 +337,11 @@
 					                        	<div class="coming-soon"> Coming Soon </div>
 					                        </div>
 					                        <div id="Weekend" class="row product-list m-auto panel">
-					                        	<div class="coming-soon"> Coming Soon </div>
+					                        	<div class="alert alert-light">
+					                        		<img src="assets/images/weekend.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black">We are open 5 days of the week for now. We hope to start weekend deliveries soon. Stay tuned.
+													</p>
+												</div>
 					                        </div>
 			                        	</div>
 				                    </div>
