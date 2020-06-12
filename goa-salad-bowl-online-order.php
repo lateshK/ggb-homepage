@@ -139,7 +139,7 @@
 
 
 									 	<div class="panels">
-					                        <div id="Monday" class="row product-list m-auto panel">
+					                        <div id="Monday" class="row product-list m-auto panel mt-3">
 					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">
@@ -231,7 +231,7 @@
 					                                </div>
 					                            </div>
 				                            </div>
-				                            <div id="Tuesday" class="row product-list m-auto panel">
+				                            <div id="Tuesday" class="row product-list m-auto panel mt-3">
 					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 					                                <div class="product-wrapper cardfour">
 					                                    <div class="lg-w-50 hover-text">

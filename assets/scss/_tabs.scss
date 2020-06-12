@@ -11,6 +11,7 @@
         -webkit-overflow-scrolling: touch;
         white-space: nowrap;
         width: 450px;
+        margin-bottom: 30px;
         .tab{
             position: relative;
             display: inline-block;
@@ -34,7 +35,7 @@
                     margin: auto;
                     bottom: 10px;
                     width: 50%;
-                    height: 2px;
+                    height: 2.5px;
                     background: #4aa751;
                 }
             }
