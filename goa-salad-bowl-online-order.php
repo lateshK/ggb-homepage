@@ -403,10 +403,10 @@
 	<div class="contentRight">
 		<div class="full-slider">
 			<div class="image">
-				<img class="" data-lazy="assets/images/front_banner_2.jpg" />
+				<img class="" data-lazy="assets/images/front_banner_2.jpg" alt="Health Food Delivery Goa" />
 			</div>
 			<div class="image">
-				<img class="" data-lazy="assets/images/front_banner_1.jpg" />
+				<img class="" data-lazy="assets/images/front_banner_1.jpg" alt="Green Grain Bowl" />
 			</div>
 			<!-- <div class="main-image">
 
