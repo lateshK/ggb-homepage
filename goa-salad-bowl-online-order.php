@@ -82,14 +82,28 @@
 			                    	  	<input class="radio" id="four" name="group" type="radio" >
 										<input class="radio" id="five" name="group" type="radio">
 										<input class="radio" id="six" name="group" type="radio">
+										
+
+										<?php 
+
+											date('w'); //gets day of week as number(0=sunday,1=monday...,6=sat)
+
+											//note:returns 0 through 6 but as string so to check if monday do this
+
+											$day_of_week = date('w');
+	                                      
+										?>
+
 										<div class="tabs">
-											<label class="tab" id="one-tab" for="one">Monday</label>
-											<label class="tab" id="two-tab" for="two">Tuesday</label>
-											<label class="tab" id="three-tab" for="three">Wednesday</label>
-											<label class="tab" id="four-tab" for="four">Thrusday</label>
-											<label class="tab" id="five-tab" for="five">Friday</label>
-											<label class="tab" id="six-tab" for="six">Saturday</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="one">Monday</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="four-tab" for="four">Thrusday</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="five-tab" for="five">Friday</label>
+											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="six-tab" for="six">Saturday</label>
 										</div>
+
+
 									 	<div class="panels">
 					                        <div class="row product-list m-auto">
 					                            <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-4 panel">

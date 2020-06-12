@@ -1,4 +1,4 @@
 <?php 
-header("Location: http://greengrainbowl.com/goa-salad-bowl-online-order");
-exit();
+	header("Location: http://greengrainbowl.com/goa-salad-bowl-online-order");
+	exit();
 ?>
