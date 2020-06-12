@@ -116,12 +116,18 @@ $(document).ready(function(){
     });
 });
 
-// $(".tabs .tab").on("click", function() {
-//   $(".tabs .tab").removeClass("active");
-//   $(this).addClass("active");
-//   // CALL scrollCenter PLUSGIN
-//   $(".tabs").scrollCenter(".active", 300);
-// });
+
+$(document).ready(function() {
+    $(".tabs").scrollCenter(".active", 300);
+    $(".tabs .tab").on("click", function() {
+        $(".tabs .tab").removeClass("active");
+        $(this).addClass("active");
+      // CALL scrollCenter PLUSGIN
+    $(".tabs").scrollCenter(".active", 300);
+
+    });
+});
+
 
 jQuery.fn.scrollCenter = function(elem, speed) {
 
