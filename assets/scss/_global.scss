@@ -195,3 +195,68 @@
 		display: none;
 	}
 }
+
+
+/* Error Page styling **/
+
+.mainbox {
+	margin: auto;
+	height: 600px;
+	width: 600px;
+	position: relative;
+	.err {
+		color: #4aa751;
+		font-size: 11rem;
+		@media (max-width: 768px){
+			font-size: 7rem;
+		}
+	}
+	.far {
+		font-size: 8.5rem;
+		color: #4aa751;
+		@media (max-width: 767px){
+	    	font-size: 5.5rem;
+		}
+	}
+	.msg {
+		text-align: center;
+		font-size: 1.6rem;
+		width: 75%;
+		color: #212529;
+		font-weight: bold;
+		margin: auto;
+		@media (max-width: 768px){
+			margin: auto;
+			width: 90%;
+		}
+	}
+	a.home-link{
+	    display: inline-block;
+	    position: relative;
+	    cursor: pointer;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	    color: #000;	
+	    text-decoration: none;
+		span.link-underline{
+			overflow: hidden;
+		    -webkit-transition: all .35s;
+		    transition: all .35s;
+		    height: 3px;
+		    background-color: #4aa751;
+		    z-index: -1;
+		    position: absolute;
+		    left: 0;
+		    bottom: -1px;
+		    width: 100%;
+		}
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	@media (max-width: 768px){
+		width: 100%;
+	}
+}

@@ -15966,6 +15966,98 @@ div.ff-stream {
   }
 }
 
+/* Error Page styling **/
+/* line 202, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox {
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+/* line 207, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox .err {
+  color: #4aa751;
+  font-size: 11rem;
+}
+
+@media (max-width: 768px) {
+  /* line 207, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .mainbox .err {
+    font-size: 7rem;
+  }
+}
+
+/* line 214, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox .far {
+  font-size: 8.5rem;
+  color: #4aa751;
+}
+
+@media (max-width: 767px) {
+  /* line 214, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .mainbox .far {
+    font-size: 5.5rem;
+  }
+}
+
+/* line 221, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox .msg {
+  text-align: center;
+  font-size: 1.6rem;
+  width: 75%;
+  color: #212529;
+  font-weight: bold;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  /* line 221, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .mainbox .msg {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* line 233, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox a.home-link {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 243, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox a.home-link span.link-underline {
+  overflow: hidden;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+  height: 3px;
+  background-color: #4aa751;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+}
+
+/* line 255, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox a.home-link:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  /* line 202, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .mainbox {
+    width: 100%;
+  }
+}
+
 /* line 1, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels {
   display: flex;
