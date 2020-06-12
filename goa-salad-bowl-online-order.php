@@ -92,27 +92,27 @@
     											echo $_REQUEST['day'];
     											echo "/n".$day_param;
     											
-    											if(day_param === "monday"){
+    											if($day_param == "monday"){
 													$day_of_week = 1;
 													echo "/nSet monday ".$day_of_week;
     											}
-    											else if(day_param === "tuesday"){
+    											else if($day_param == "tuesday"){
 													$day_of_week = 2;
 													echo "/nSet tuesday ".$day_of_week;													
     											}
-    											else if(day_param === "wednesday"){
+    											else if($day_param == "wednesday"){
 													$day_of_week = 3;
 													echo "/nSet wednesday ".$day_of_week;													
     											}
-    											else if(day_param == "thursday"){
+    											else if($day_param == "thursday"){
 													echo "/nSet thursday ".$day_of_week;   											
 													$day_of_week = 4;											
     											}
-    											else if(day_param == "friday"){
+    											else if($day_param == "friday"){
 													$day_of_week = 5;
 													echo "/nSet friday ".$day_of_week;														
     											}
-    											else if(day_param == "saturday" or day_param == "sunday" or day_param == "weekend"){
+    											else if($day_param == "saturday" or $day_param == "sunday" or $day_param == "weekend"){
 													$day_of_week = 6;
 													echo "/nSet weekend ".$day_of_week;														
     											}
