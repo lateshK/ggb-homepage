@@ -89,8 +89,6 @@
 											if(isset($_REQUEST['day']))
 											{
     											$day_param = strtolower($_REQUEST['day']);
-    											echo $_REQUEST['day'];
-    											echo "/n".$day_param;
     											
     											if($day_param == "monday"){
 													$day_of_week = 1;
@@ -131,7 +129,7 @@
 										<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
 											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="one">Monday</label>
 											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
-											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
+											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
 											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="four">Thrusday</label>
 											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="five">Friday</label>
 											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="six-tab" for="six">Saturday</label>
