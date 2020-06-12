@@ -91,6 +91,8 @@
 											//note:returns 0 through 6 but as string so to check if monday do this
 
 											$day_of_week = date('w');
+
+											echo "DAY of the week is ".$day_of_week; 
 	                                      
 										?>
 
