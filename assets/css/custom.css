@@ -16029,7 +16029,7 @@ div.ff-stream {
 @media (max-width: 768px) {
   /* line 8, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
   .tab-panels .tabs {
-    width: 100%;
+    width: 90%;
   }
 }
 
