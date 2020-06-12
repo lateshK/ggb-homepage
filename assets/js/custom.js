@@ -111,15 +111,17 @@ $(document).ready(function(){
         dots: true,
         arrows: false,
     });
-
+    $("input[type=radio]").click(function(){
+        $(".product-image").slick('setPosition');
+    });
 });
 
-$(".tabs .tab").on("click", function() {
-  $(".tabs .tab").removeClass("active");
-  $(this).addClass("active");
-  // CALL scrollCenter PLUSGIN
-  $(".tabs").scrollCenter(".active", 300);
-});
+// $(".tabs .tab").on("click", function() {
+//   $(".tabs .tab").removeClass("active");
+//   $(this).addClass("active");
+//   // CALL scrollCenter PLUSGIN
+//   $(".tabs").scrollCenter(".active", 300);
+// });
 
 jQuery.fn.scrollCenter = function(elem, speed) {
 

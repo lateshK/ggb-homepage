@@ -508,7 +508,7 @@
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.3.11/slick.min.js"></script>	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 	
