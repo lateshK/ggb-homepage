@@ -111,7 +111,9 @@ $(document).ready(function(){
         dots: true,
         arrows: false,
     });
-
+    $("input[type=radio]").click(function(){
+        $(".product-image").slick('setPosition');
+    });
 });
 
 $(".tabs .tab").on("click", function() {
