@@ -208,7 +208,7 @@
 		color: #4aa751;
 		font-size: 11rem;
 		@media (max-width: 768px){
-			font-size: 7rem;
+			font-size: 6rem;
 		}
 	}
 	.far {
@@ -229,6 +229,14 @@
 			margin: auto;
 			width: 90%;
 		}
+	}
+	.seperator-img{
+	    width: 60%;
+	    margin: auto;
+	    margin-bottom: 50px;
+	    @media (max-width: 768px){
+	    	margin-bottom: 30px;
+	    }
 	}
 	a.home-link{
 	    display: inline-block;

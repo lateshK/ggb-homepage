@@ -19,7 +19,10 @@
 				<i class="far fa-question-circle fa-spin"></i>
 			<span class="err">4</span>
 		</div>
-			<div class="msg">Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?
+		<div class="seperator-img">
+			<img src="assets/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
+		</div>
+		<div class="msg">Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?
 			<p>Let's go <a href="http://greengrainbowl.com" class="home-link" title="Back To Home">home<span class="link-underline"></span></a> and try from there.</p>
 		</div>
 	</div>

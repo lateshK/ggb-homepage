@@ -15984,7 +15984,7 @@ div.ff-stream {
 @media (max-width: 768px) {
   /* line 207, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .mainbox .err {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 }
 
@@ -16020,6 +16020,20 @@ div.ff-stream {
 }
 
 /* line 233, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.mainbox .seperator-img {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  /* line 233, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  .mainbox .seperator-img {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 241, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox a.home-link {
   display: inline-block;
   position: relative;
@@ -16032,7 +16046,7 @@ div.ff-stream {
   text-decoration: none;
 }
 
-/* line 243, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 251, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox a.home-link span.link-underline {
   overflow: hidden;
   -webkit-transition: all .35s;
@@ -16046,7 +16060,7 @@ div.ff-stream {
   width: 100%;
 }
 
-/* line 255, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 263, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox a.home-link:hover {
   text-decoration: none;
 }
