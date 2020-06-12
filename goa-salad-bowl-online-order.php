@@ -111,7 +111,7 @@
 
 										?>
 
-										<div class="tabs" data-text="echo 'Day of the week'.$day_of_week;">
+										<div class="tabs" data-text="<?php echo 'Day of the week'.$day_of_week;?>">
 											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="one">Monday</label>
 											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
 											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
