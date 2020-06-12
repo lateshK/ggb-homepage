@@ -21,14 +21,10 @@
 		max-width: 550px;
 		padding: 0px;
 		.body-text {
-			font-size: 16px;
-			padding: 0 15px;
-			@media (min-width: 992px){
-				font-size: 1.3rem;
-			}
-			@media (max-width: 991px) and (min-width: 768px){
-				font-size: 1.1rem;
-			}
+		    font-size: 1.375rem;
+		}
+		.my-6{
+		    margin: 6rem 0;
 		}
 		.intro-text{
 		    font-size: 1.6rem;
@@ -80,9 +76,11 @@
 		    visibility: hidden;
 		    transition: opacity 1s ease;
 		    -webkit-transition: opacity 1s ease;
+	       	height: 0vh;
 		    &.slick-initialized {
 		        visibility: visible;
-		        opacity: 1;  
+		        opacity: 1; 
+		        height: auto;
 		    }
 		}
 		.slick-list {
