@@ -95,17 +95,17 @@
 											{
     											$day_param = strtolower($_GET['day']);
     											
-    											if(day_param == "monday"):
+    											if(day_param == "monday")
 													$day_of_week = 1;
-    											if(day_param == "tuesday"):
+    											if(day_param == "tuesday")
 													$day_of_week = 2;
-    											if(day_param == "wednesday"):
+    											if(day_param == "wednesday")
 													$day_of_week = 3;
-    											if(day_param == "thursday"):
+    											if(day_param == "thursday")
 													$day_of_week = 4;											
-    											if(day_param == "friday"):
+    											if(day_param == "friday")
 													$day_of_week = 5;	
-    											if(day_param == "saturday" or day_param == "sunday" or day_param = "weekend"):
+    											if(day_param == "saturday" or day_param == "sunday" or day_param = "weekend")
 													$day_of_week = 6;	
 											}
 
