@@ -92,31 +92,31 @@
     											
     											if($day_param == "monday"){
 													$day_of_week = 1;
-													echo "/nSet monday ".$day_of_week;
+													// echo "/nSet monday ".$day_of_week;
     											}
     											else if($day_param == "tuesday"){
 													$day_of_week = 2;
-													echo "/nSet tuesday ".$day_of_week;													
+													// echo "/nSet tuesday ".$day_of_week;													
     											}
     											else if($day_param == "wednesday"){
 													$day_of_week = 3;
-													echo "/nSet wednesday ".$day_of_week;													
+													// echo "/nSet wednesday ".$day_of_week;													
     											}
-    											else if($day_param == "thursday"){
-													echo "/nSet thursday ".$day_of_week;   											
-													$day_of_week = 4;											
+    											else if($day_param == "thursday"){ 											
+													$day_of_week = 4;		
+													// echo "/nSet thursday ".$day_of_week;  									
     											}
     											else if($day_param == "friday"){
 													$day_of_week = 5;
-													echo "/nSet friday ".$day_of_week;														
+													// echo "/nSet friday ".$day_of_week;														
     											}
     											else if($day_param == "saturday" or $day_param == "sunday" or $day_param == "weekend"){
 													$day_of_week = 6;
-													echo "/nSet weekend ".$day_of_week;														
+													// echo "/nSet weekend ".$day_of_week;														
     											}
     											else{
 													$day_of_week = date('w');
-													echo "/nSet default current ".$day_of_week;													
+													// echo "/nSet default current ".$day_of_week;													
     											}
 											}
 											else{
@@ -130,9 +130,9 @@
 											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="one">Monday</label>
 											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="two">Tuesday</label>
 											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="three">Wednesday</label>
-											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="four">Thrusday</label>
+											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="four">Thursday</label>
 											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="five">Friday</label>
-											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="six-tab" for="six">Saturday</label>
+											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="six-tab" for="six">Weekend</label>
 										</div>
 
 
