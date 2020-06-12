@@ -15730,7 +15730,7 @@ div.ff-stream {
 
 /* line 26, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .my-6 {
-  margin: 6rem 0;
+  margin: 0rem 0 5rem;
 }
 
 /* line 29, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
@@ -16084,9 +16084,10 @@ div.ff-stream {
   -webkit-overflow-scrolling: touch;
   white-space: nowrap;
   width: 450px;
+  margin-bottom: 30px;
 }
 
-/* line 14, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 15, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels .tabs .tab {
   position: relative;
   display: inline-block;
@@ -16101,13 +16102,13 @@ div.ff-stream {
   margin-right: 15px;
 }
 
-/* line 26, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels .tabs .tab.active {
   color: #000 !important;
   font-weight: 600 !important;
 }
 
-/* line 29, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 30, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels .tabs .tab.active:after {
   content: "";
   position: absolute;
@@ -16116,11 +16117,11 @@ div.ff-stream {
   margin: auto;
   bottom: 10px;
   width: 50%;
-  height: 2px;
+  height: 2.5px;
   background: #4aa751;
 }
 
-/* line 42, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 43, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels .tabs::-webkit-scrollbar {
   display: none;
 }
@@ -16132,12 +16133,12 @@ div.ff-stream {
   }
 }
 
-/* line 49, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 50, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels .panels {
   width: 100%;
 }
 
-/* line 51, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 52, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels .panels .panel {
   display: none;
   overflow-y: hidden;
@@ -16153,7 +16154,7 @@ div.ff-stream {
   }
 }
 
-/* line 69, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
+/* line 70, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 #mon:checked ~ .panels #Monday,
 #tue:checked ~ .panels #Tuesday,
 #wed:checked ~ .panels #Wednesday,
