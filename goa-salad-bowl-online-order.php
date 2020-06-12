@@ -408,10 +408,10 @@
 	<div class="contentRight">
 		<div class="full-slider">
 			<div class="image">
-				<img class="" data-lazy="assets/images/front_banner_2.jpg" alt="Health Food Delivery Goa" />
+				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_2.jpg" alt="Health Food Delivery Goa" />
 			</div>
 			<div class="image">
-				<img class="" data-lazy="assets/images/front_banner_1.jpg" alt="Green Grain Bowl" />
+				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_1.jpg" alt="Green Grain Bowl" />
 			</div>
 			<!-- <div class="main-image">
 
@@ -518,7 +518,12 @@
 	 </div>
 	</div>
 
-	<div class="backdrop"></div>	
+	<div class="backdrop"></div>
+
+	<div class="site-loader text-center p-5">
+  		<img src="assets/images/green_grain_bowl.png" width="75px" class="mt-5"/> 
+	</div>
+
 	<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css"/>
