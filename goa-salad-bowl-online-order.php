@@ -89,20 +89,37 @@
 											if(isset($_REQUEST['day']))
 											{
     											$day_param = strtolower($_REQUEST['day']);
-    											echo "query param set ".$day_param;
+    											echo $_REQUEST['day'];
+    											echo "/n".$day_param;
     											
-    											if(day_param == "monday")
+    											if(day_param === "monday"){
 													$day_of_week = 1;
-    											if(day_param == "tuesday")
+													echo "/nSet monday ".$day_of_week;
+    											}
+    											else if(day_param === "tuesday"){
 													$day_of_week = 2;
-    											if(day_param == "wednesday")
+													echo "/nSet tuesday ".$day_of_week;													
+    											}
+    											else if(day_param === "wednesday"){
 													$day_of_week = 3;
-    											if(day_param == "thursday")
+													echo "/nSet wednesday ".$day_of_week;													
+    											}
+    											else if(day_param == "thursday"){
+													echo "/nSet thursday ".$day_of_week;   											
 													$day_of_week = 4;											
-    											if(day_param == "friday")
-													$day_of_week = 5;	
-    											if(day_param == "saturday" or day_param == "sunday" or day_param == "weekend")
-													$day_of_week = 6;	
+    											}
+    											else if(day_param == "friday"){
+													$day_of_week = 5;
+													echo "/nSet friday ".$day_of_week;														
+    											}
+    											else if(day_param == "saturday" or day_param == "sunday" or day_param == "weekend"){
+													$day_of_week = 6;
+													echo "/nSet weekend ".$day_of_week;														
+    											}
+    											else{
+													$day_of_week = date('w');
+													echo "/nSet default current ".$day_of_week;													
+    											}
 											}
 											else{
 												echo "no query param set";
