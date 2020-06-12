@@ -375,12 +375,17 @@
 				                        <div class="col-md-12 mt-4 mt-md-0 contact-details">
 				                            <h4 class="font-weight-light">
 				                                <a class="d-block h4 font-weight-light" href="https://www.instagram.com/greengrainbowl/">
-				                                    Instagram
+				                                    <i class="fab fa-instagram mr-2"></i>Instagram
 				                                </a>
 				                            </h4>
 				                            <h4 class="font-weight-light">
 				                                <a class="d-block h4 font-weight-light" href="https://wa.me/917770004258?text=Hi">
-				                                    Whatsapp
+				                                    <i class="fab fa-whatsapp mr-2"></i>Whatsapp
+				                                </a>
+				                            </h4>
+				                            <h4 class="font-weight-light">
+				                                <a class="d-block h4 font-weight-light" href="https://www.facebook.com/GreenGrainBowl">
+				                                    <i class="fab fa-facebook-square mr-2"></i>Facebook
 				                                </a>
 				                            </h4>
 				                        </div>
